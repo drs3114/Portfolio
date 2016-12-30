@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+<title>Welcome</title>
+
+<!-- Bootstrap -->
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<link href="css/portfolio.css" rel="stylesheet">
+<link
+	href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"
+	rel="stylesheet"
+	integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1"
+	crossorigin="anonymous">
+
+</head>
+<!--  -->
+<body data-spy="scroll" data-target="#info"
+	style="background-color: black;">
+	<div class="container-fluid" id="particles"
+		style="background-color: white;">
+		<header style="padding-top: 20% cm;">
+			<nav class="navbar navbar-inverse">
+				<div class="container-fluid">
+					<div class="navbar-header">
+						<button type="button" class="navbar-toggle collapsed"
+							data-toggle="collapse" data-target="#menu" aria-expanded="false">
+							<span class="sr-only">Toggle navigation</span> <span
+								class="icon-bar"></span> <span class="icon-bar"></span> <span
+								class="icon-bar"></span>
+						</button>
+					</div>
+					<div
+						class="collapse navbar-collapse bs-example-js-navbar-scrollspy"
+						id="menu">
+						<ul class="nav navbar-nav navbar-right">
+							<li><a href="#edu">Education</a></li>
+							<li><a href="#skills">Skills</a></li>
+							<li><a href="#prj">Projects</a></li>
+							<li><a href="#exp">Experience</a></li>
+							<li><a href="#footer">Contact</a></li>
+							<li><a data-toggle="modal" data-target="#calModal">See
+									my schedule!</a></li>
+							<li><a href="Resume.pdf"><span
+									class="glyphicon glyphicon-save"></span> Resume</a></li>
+						</ul>
+					</div>
+				</div>
+			</nav>
+		</header>
+
+		<!-- Modal to display calander -->
+		<!-- Modal -->
+		<div class="modal fade bs-example-modal-lg" id="calModal"
+			tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+			<div class="modal-dialog modal-lg" role="document">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal"
+							aria-label="Close">
+							<span aria-hidden="true">&times;</span>
+						</button>
+						<h4 class="modal-title" id="myModalLabel">My Schedule...</h4>
+					</div>
+					<div class="modal-body">
+						<iframe
+							src="https://calendar.google.com/calendar/embed?src=drs3114%40g.rit.edu&ctz=America/New_York"
+							style="border: 0" width="100%" height="600px" frameborder="0"
+							scrolling="no"></iframe>
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id ="intro">
+		<div class="container-fluid" id ="particlesBody">
+			<div class="container">
+				<div class="row">
+					<div>
+						<img src="images/me-2.jpg" alt="Deepak"
+							class="img-responsive img-rounded abt-pic">
+					</div>
+				</div>
+				<div class="row">
+					<div class="container">
+						<h2>Deepak Ravi Shankar</h2>
+						<p>Student @ Rochester Institute of Technology</p>
+						<!-- Button trigger modal -->
+						<div style=""></div>
+
+
+						<hr>
+					</div>
+				</div>
+			</div>
+			<div id="info">
+				<div class="row" id="edu">
+					<div class="container">
+						<h3>Education</h3>
+						<div class="col-md-6">
+							<div class="panel-group" id="accordion" role="tablist"
+								aria-multiselectable="true">
+								<div class="panel panel-default">
+									<div class="panel-heading" role="tab" id="headingOne">
+										<h4 class="panel-title">
+											<a role="button" data-toggle="collapse"
+												data-parent="#accordion" href="#rit" aria-expanded="true"
+												aria-controls="rit"> Rochester Institute of Technology</a>
+										</h4>
+									</div>
+									<div id="rit" class="panel-collapse collapse" role="tabpanel"
+										aria-labelledby="headingOne">
+										<div class="panel-body">
+											<div class="jumbotron">
+												<h4>
+													Degree :<small>Master of Science (M.S)</small>
+												</h4>
+												<h4>
+													Major :<small>Computer Science</small>
+												</h4>
+												<h4>
+													G.P.A :<small>3.06</small>
+												</h4>
+												<h4>
+													Courses: <small>Algorithms, Introduction to Big
+														Data, Foundations of Intelligent Systems, Foundations of
+														Parallel Computing, Foundations of Computer Networks</small>
+												</h4>
+											</div>
+										</div>
+									</div>
+								</div>
+
+
+							</div>
+						</div>
+						<div class="col-md-6">
+
+							<div class="panel-group" id="accordion" role="tablist"
+								aria-multiselectable="true">
+								<div class="panel panel-default">
+									<div class="panel-heading" role="tab" id="headingOne">
+										<h4 class="panel-title">
+											<a role="button" data-toggle="collapse"
+												data-parent="#accordion" href="#ait" aria-expanded="true"
+												aria-controls="ait"> Dr Ambedkar Institute of Technology</a>
+										</h4>
+									</div>
+									<div id="ait" class="panel-collapse collapse" role="tabpanel"
+										aria-labelledby="headingOne">
+										<div class="panel-body">
+											<div class="jumbotron">
+												<h4>
+													Degree :<small>Bachelor of Engineering (B.E)</small>
+												</h4>
+												<h4>
+													Major :<small>Computer Science</small>
+												</h4>
+												<h4>
+													Percentage :<small>70.25</small>
+												</h4>
+												<h4>
+													Courses: <small>Operating Systems, Database
+														Management Systems, Software Engineering, Computer
+														Architecture, Object Oriented Programming.</small>
+												</h4>
+											</div>
+										</div>
+									</div>
+								</div>
+
+
+							</div>
+
+						</div>
+					</div>
+
+				</div>
+				<div class="row" id="skills">
+					<div class="container">
+						<h3>Skills</h3>
+						<div class="jumbotron">
+							<h2>Java</h2>
+							<p align="center">
+								<span> <span class="glyphicon glyphicon-star star-color"
+									style="color: gold"></span> <span
+									class="glyphicon glyphicon-star star-color" style="color: gold"></span>
+									<span class="glyphicon glyphicon-star star-color"
+									style="color: gold"></span> <span
+									class="glyphicon glyphicon-star star-color" style="color: gold"></span>
+									<span
+									class="glyphicon glyphicon glyphicon-star-empty star-color"></span>
+								</span>
+							</p>
+							<!-- <div class="progress">
+								<div class="progress-bar" role="progressbar" aria-valuenow="7"
+									aria-valuemin="0" aria-valuemax="10" style="width: 70%;">
+									<span class="sr-only">7 on a scale of 10</span>
+								</div>
+							</div> -->
+							<hr>
+							<h2>Python</h2>
+							<p align="center">
+								<span> <span class="glyphicon glyphicon-star star-color"
+									style="color: gold"></span> <span
+									class="glyphicon glyphicon-star star-color" style="color: gold"></span>
+									<span class="glyphicon glyphicon-star star-color"
+									style="color: gold"></span> <span
+									class="glyphicon glyphicon glyphicon-star-empty star-color"></span>
+									<span
+									class="glyphicon glyphicon glyphicon-star-empty star-color"></span>
+									<!-- <span class="glyphicon glyphicon-star star-color" style="color: gold"></span> -->
+									<!--<span class="glyphicon glyphicon-star star-color" style="color: gold"></span> !-->
+								</span>
+							</p>
+							<!-- <div class="progress">
+								<div class="progress-bar" role="progressbar" aria-valuenow="6"
+									aria-valuemin="0" aria-valuemax="10" style="width: 60%;">
+									<span class="sr-only">6 on a scale of 10</span>
+								</div>
+							</div> -->
+							<hr>
+							<h2>HTML</h2>
+							<p align="center">
+								<span> <span class="glyphicon glyphicon-star star-color"
+									style="color: gold"></span> <span
+									class="glyphicon glyphicon-star star-color" style="color: gold"></span>
+									<span class="glyphicon glyphicon-star star-color"
+									style="color: gold"></span> <span
+									class="glyphicon glyphicon glyphicon-star-empty star-color"></span>
+									<span
+									class="glyphicon glyphicon glyphicon-star-empty star-color"></span>
+									<!-- <span class="glyphicon glyphicon-star star-color" style="color: gold"></span> -->
+									<!--<span class="glyphicon glyphicon-star star-color" style="color: gold"></span> !-->
+								</span>
+							</p>
+							<!-- <div class="progress">
+								<div class="progress-bar" role="progressbar" aria-valuenow="6"
+									aria-valuemin="0" aria-valuemax="10" style="width: 60%;">
+									<span class="sr-only">6 on a scale of 10</span>
+								</div>
+							</div> -->
+						</div>
+					</div>
+				</div>
+
+				<div class="row" id="projects">
+					<div class="container">
+						<h3>Projects</h3>
+						<div class="jumbotron">
+							<h2>
+								Flight Schedule Prediction based on Weather <a
+									href="https://github.com/drs3114/SchedulePredict/"><i
+									class="fa fa-github" aria-hidden="true"></i></a>
+							</h2>
+
+							<hr>
+							<h2>
+								Network Packet Analyzer <a
+									href="https://github.com/drs3114/PacketAnalyzer"><i
+									class="fa fa-github" aria-hidden="true"></i></a>
+							</h2>
+
+						</div>
+					</div>
+				</div>
+
+			</div>
+
+		</div>
+		</div>
+		<footer id="footer">
+			<nav class="navbar navbar-inverse">
+				<div class="container-fluid">
+					<div class="col-md-4">
+						<address class="address-just">
+							<strong>Deepak Ravi Shankar</strong><br> 248 Crittenden Way,
+							Apt 6<br> Rochester, NY 14623<br> <abbr title="Phone">P:</abbr>
+							(585) 451-4824 <br> <a href="mailto:drs3114@rit.edu">drs3114@rit.edu</a>
+						</address>
+					</div>
+					<div class="col-md-4" style="top: 100%">
+						<p>copyright 2016 Deepak Ravi Shankar</p>
+
+					</div>
+					<div class="col-md-4">
+						<div class="nav navbar-right">
+							<p>Connect with ME!</p>
+							<ul>
+								<li><a href="https://facebook.com/shankardeepak22">Facebook</a></li>
+								<li><a href="https://twitter.com/shankardeepak22">Twitter</a></li>
+								<li><a
+									href="https://plus.google.com/u/1/+deepakshankar_drs">Google+</a></li>
+								<li><a href="https://www.linkedin.com/in/shankardeepak22">LinkedIn</a></li>
+							</ul>
+						</div>
+					</div>
+
+				</div>
+			</nav>
+		</footer>
+	</div>
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+	<script
+		src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<!-- Include all compiled plugins (below), or include individual files as needed -->
+	<script src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/jquery.particleground.min.js"></script>
+	<script src="js/particlebg.js"></script>
+
+	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+	<!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</body>
+</html>
