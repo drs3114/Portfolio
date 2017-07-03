@@ -27,8 +27,9 @@
 }
 
 h1 {
-	font-family: Consolas, monaco, monospace;
-	font-size: 40px;
+	/* font-family: Consolas, monaco, monospace; */
+	font-family: 'Assistant', sans-serif;
+	font-size: 44px;
 	font-style: normal;
 	font-variant: normal;
 	font-weight: 500;
@@ -38,8 +39,9 @@ h1 {
 }
 
 h2 {
-	font-family: Consolas, monaco, monospace;
-	font-size: 22px;
+	/* font-family: Consolas, monaco, monospace; */
+	font-family: 'Assistant', sans-serif;
+	font-size: 26px;
 	font-style: normal;
 	font-variant: normal;
 	font-weight: 500;
@@ -50,8 +52,9 @@ h2 {
 }
 
 h3 {
-	font-family: Consolas, monaco, monospace;
-	font-size: 20px;
+	/* font-family: Consolas, monaco, monospace; */
+	font-family: 'Assistant', sans-serif;
+	font-size: 24px;
 	font-style: normal;
 	font-variant: normal;
 	font-weight: 500;
@@ -61,8 +64,9 @@ h3 {
 }
 
 h4 {
-	font-family: Consolas, monaco, monospace;
-	font-size: 18px;
+	/* font-family: Consolas, monaco, monospace; */
+	font-family: 'Assistant', sans-serif;
+	font-size: 22px;
 	font-style: normal;
 	font-variant: normal;
 	font-weight: 500;
@@ -71,8 +75,9 @@ h4 {
 }
 
 h5 {
-	font-family: Consolas, monaco, monospace;
-	font-size: 16px;
+	/* font-family: Consolas, monaco, monospace; */
+	font-family: 'Assistant', sans-serif;
+	font-size: 20px;
 	font-style: normal;
 	font-variant: normal;
 	font-weight: 500;
@@ -82,7 +87,8 @@ h5 {
 }
 
 p {
-	font-family: Consolas, monaco, monospace;
+	/* font-family: Consolas, monaco, monospace; */
+	font-family: 'Assistant', sans-serif;
 	font-style: normal;
 	font-variant: normal;
 	text-align: center;
